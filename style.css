@@ -1,0 +1,80 @@
+*{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+margin:0;}
+    
+ h1
+    {
+    color: greenyellow;
+    display: block;
+   
+    padding-top: 100px; 
+    text-shadow: 5px 5px 25px black;
+    }
+
+.parallax-1, .parallax-3{
+   width: 100%;
+   height: 600px;
+   background-attachment: fixed;
+   /* background-size: 100% 100%; */
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/16/671/726/lionel-messi-football-barcelona-hd-wallpaper-preview.jpg");
+    background-size: 100% 100%;
+
+}
+
+.parallax-1
+{height: 520px;}
+
+.parallax-1 h2{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    width: 250px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 4px 4px;
+}
+
+.para1, .para2, .para-3{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 10%;
+   /* padding-left: 10% ;
+   padding-right: 10%;
+   padding-top: 10px;
+   padding-bottom: 10px; */
+}
+
+.parallax-2
+{ width: 100%;
+    height: 600px;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/449/353/223/lionel-messi-4k-wallpaper-preview.jpg");
+background-size: 100% 100%;
+background-attachment: fixed;
+
+}
+
+.parallax-2 h2{
+   
+    color: wheat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    width: 250px;
+    margin: auto;
+    padding: 4px 4px;
+    margin: auto;
+            position: relative;
+            top: 200px;
+
+}
+
+.parallax-3 h2{
+    position: relative;
+    top: 200px;
+    color: wheat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    width: 250px;
+    margin: auto;
+    padding: 4px 4px;
+
+}
